@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "cache_last_updated": null,
+    "cache_url": null,
+    "created": "2019-07-23T16:40:17.467193",
+    "datastore_active": false,
+    "format": "JSON",
+    "hash": "",
+    "id": "5c1c2c06-d27f-47b7-ae82-926a6d23d76f",
+    "is_datastore_cache_file": false,
+    "is_preview": false,
+    "last_modified": "2019-07-23T16:40:17.427058",
+    "metadata_modified": "2022-03-10T16:24:04.865406",
+    "mimetype": "application/json",
+    "mimetype_inner": null,
+    "name": "bike-share-json",
+    "package_id": "2b44db0d-eea9-442d-b038-79335368ad5a",
+    "position": 0,
+    "resource_type": null,
+    "revision_id": "e19f02c5-3513-46df-a4f6-375e4e530133",
+    "size": 577,
+    "state": "active",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/2b44db0d-eea9-442d-b038-79335368ad5a/resource/5c1c2c06-d27f-47b7-ae82-926a6d23d76f/download/bike-share-json.json",
+    "url_type": "upload"
+  },
+  "data": {
+    "last_updated": 1563373889,
+    "ttl": 24,
+    "data": {
+      "en": {
+        "feeds": [
+          {
+            "name": "system regions",
+            "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_regions"
+          },
+          {
+            "name": "system_information",
+            "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_information"
+          },
+          {
+            "name": "station_information",
+            "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_information"
+          },
+          {
+            "name": "station_status",
+            "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_status"
+          },
+          {
+            "name": "system_pricing_plans",
+            "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_pricing_plans"
+          }
+        ]
+      }
+    }
+  }
+}

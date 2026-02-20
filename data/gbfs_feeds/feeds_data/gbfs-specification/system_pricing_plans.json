@@ -1,0 +1,550 @@
+{
+  "metadata": {
+    "name": "system_pricing_plans",
+    "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_pricing_plans"
+  },
+  "data": {
+    "last_updated": 1771403902,
+    "ttl": 0,
+    "data": {
+      "plans": [
+        {
+          "plan_id": "186",
+          "name": "Annual 30",
+          "currency": "CAD",
+          "price": 105.0,
+          "description": "Unlimited 30-min trips on classic bikes",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "208",
+          "name": "Annual 45",
+          "currency": "CAD",
+          "price": 120.0,
+          "description": "Unlimited 45-min trips on classic bikes",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "209",
+          "name": "Corporate 30",
+          "currency": "CAD",
+          "price": 84.0,
+          "description": "Corporate 30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "210",
+          "name": "Corporate 45",
+          "currency": "CAD",
+          "price": 96.0,
+          "description": "Corporate 45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "211",
+          "name": "OPTION 2 TEST",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "212",
+          "name": "CMP-MROC30",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "213",
+          "name": "CMP-MROC45",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "CMP-MROC45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "214",
+          "name": "CMP-PPCMP45",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "215",
+          "name": "CMP-PPCMP30",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "216",
+          "name": "CMP CoT30",
+          "currency": "CAD",
+          "price": 63.0,
+          "description": "CMP CoT30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "217",
+          "name": "CMP CoT45",
+          "currency": "CAD",
+          "price": 72.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "218",
+          "name": "CMP-Smart30",
+          "currency": "CAD",
+          "price": 78.75,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "219",
+          "name": "CMP-Smart45",
+          "currency": "CAD",
+          "price": 90.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "220",
+          "name": "CMP AnimalClinic30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP AnimalClinic30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "221",
+          "name": "CMP AnimalClinic45",
+          "currency": "CAD",
+          "price": 63.0,
+          "description": "CMP AnimalClinic45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "222",
+          "name": "CMP-ParkPeople30",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "CMP-ParkPeople30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "223",
+          "name": "CMP-ParkPeople45",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "CMP-ParkPeople45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "224",
+          "name": "VIP Trial",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "VIP Trial",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "225",
+          "name": "CMP-TP30",
+          "currency": "CAD",
+          "price": 63.0,
+          "description": "CMP-TP30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "226",
+          "name": "CMP-TP45",
+          "currency": "CAD",
+          "price": 72.0,
+          "description": "CMP-TP45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "227",
+          "name": "CMP-MUR30",
+          "currency": "CAD",
+          "price": 31.5,
+          "description": "CMP-MUR30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "228",
+          "name": "CMP-MUR45",
+          "currency": "CAD",
+          "price": 36.0,
+          "description": "CMP-MUR45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "229",
+          "name": "CMP-GP30",
+          "currency": "CAD",
+          "price": 49.5,
+          "description": "CMP-GP30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "230",
+          "name": "CMP-GP45",
+          "currency": "CAD",
+          "price": 57.5,
+          "description": "CMP-GP45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "231",
+          "name": "CMP-LEA30",
+          "currency": "CAD",
+          "price": 63.0,
+          "description": "CMP-LEA30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "232",
+          "name": "CMP-LEA45",
+          "currency": "CAD",
+          "price": 72.0,
+          "description": "CMP-LEA45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "244",
+          "name": "CMP-SmartDen30",
+          "currency": "CAD",
+          "price": 21.0,
+          "description": "CMP-SmartDen30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "245",
+          "name": "CMP-SmartDen45",
+          "currency": "CAD",
+          "price": 24.0,
+          "description": "CMP-SmartDen45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "248",
+          "name": "CMP-DewartGleason45",
+          "currency": "CAD",
+          "price": 63.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "249",
+          "name": "CMP-DewartGleason30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-DewartGleason30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "251",
+          "name": "Classic Bike DayPass",
+          "currency": "CAD",
+          "price": 15.0,
+          "description": "90 min rides on classic bikes",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "252",
+          "name": "Pay-As-You-Go ($1 Unlock Fee)",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "+Classic bike $0.12/min; Ebike $0.20/min  ",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "254",
+          "name": "CMP-CollabArc30",
+          "currency": "CAD",
+          "price": 42.0,
+          "description": "CMP-CollabArc30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "255",
+          "name": "CMP-CollabArc45",
+          "currency": "CAD",
+          "price": 48.0,
+          "description": "CMP-CollabArc45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "256",
+          "name": "CMP-GPP45 (test)",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "257",
+          "name": "CMP-GreenP45",
+          "currency": "CAD",
+          "price": 0.0,
+          "description": "CMP-GreenP45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "258",
+          "name": "Annual 30 - ODSP",
+          "currency": "CAD",
+          "price": 105.0,
+          "description": "Unlimited 30-min trips with any bike",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "259",
+          "name": "Annual 45 - ODSP",
+          "currency": "CAD",
+          "price": 120.0,
+          "description": "Unlimited 45-min trips with any bike",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "260",
+          "name": "CMP-GCC 30",
+          "currency": "CAD",
+          "price": 63.0,
+          "description": "CMP-GCC 30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "261",
+          "name": "CMP-GCC 45",
+          "currency": "CAD",
+          "price": 72.0,
+          "description": "CMP-GCC 45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "262",
+          "name": "CMP-BeyondTech30",
+          "currency": "CAD",
+          "price": 31.5,
+          "description": "CMP-BeyondTech30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "263",
+          "name": "CMP-BeyondTech45",
+          "currency": "CAD",
+          "price": 36.0,
+          "description": "CMP-BeyondTech45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "264",
+          "name": "Annual 30 3 Install",
+          "currency": "CAD",
+          "price": 105.0,
+          "description": "3 monthly installments of $35 + tax",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "265",
+          "name": "Annual 45 3 Install",
+          "currency": "CAD",
+          "price": 120.0,
+          "description": "3 monthly installments of $40 + tax",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "269",
+          "name": "CMP-WaterFront30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-WaterFront30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "270",
+          "name": "CMP-NGE30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-NGE30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "271",
+          "name": "CMP-NGE45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-NGE45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "274",
+          "name": "CMP-CollectifH30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-CollectifH30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "275",
+          "name": "CMP-CollectifH45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-CollectifH45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "276",
+          "name": "CMP-BleuComm30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-BleuComm30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "277",
+          "name": "CMP-BleuComm45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-BleuComm45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "278",
+          "name": "CMP-GlassR30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-GlassR30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "279",
+          "name": "CMP-GlassR45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-GlassR45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "281",
+          "name": "CMP-Institut30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-Institut30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "282",
+          "name": "CMP-Institut45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-Institut45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "283",
+          "name": "CMP-Tulip30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-Tulip30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "284",
+          "name": "CMP-Tulip45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-Tulip45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "285",
+          "name": "CMP-BRND30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-BRND30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "286",
+          "name": "CMP-BRND45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-BRND45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "287",
+          "name": "CMP-GSM30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-GSM30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "288",
+          "name": "CMP-GSM45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-GSM45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "289",
+          "name": "CMP-Gardn30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-Gardn30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "290",
+          "name": "CMP-Gardn45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-Gardn45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "291",
+          "name": "CMP-Burdock30",
+          "currency": "CAD",
+          "price": 52.5,
+          "description": "CMP-Burdock30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "292",
+          "name": "CMP-Burdock45",
+          "currency": "CAD",
+          "price": 60.0,
+          "description": "CMP-Burdock45",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "296",
+          "name": "CMP-CIMA30",
+          "currency": "CAD",
+          "price": 70.35,
+          "description": "CMP-CIMA30",
+          "is_taxable": 1
+        },
+        {
+          "plan_id": "297",
+          "name": "CMP-CIMA45",
+          "currency": "CAD",
+          "price": 80.4,
+          "description": "CMP-CIMA45",
+          "is_taxable": 1
+        }
+      ]
+    }
+  }
+}

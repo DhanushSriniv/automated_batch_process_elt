@@ -1,0 +1,11 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+pytest
+requests
+dlt
+loguru
+python-dateutil
+tqdm
+python-dotenv

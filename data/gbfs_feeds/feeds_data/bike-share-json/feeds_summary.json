@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-02-18T03:38:34.213433",
+  "resource": "bike-share-json",
+  "feeds_count": 5,
+  "feeds": {
+    "system regions": {
+      "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_regions",
+      "has_data": true,
+      "error": null
+    },
+    "system_information": {
+      "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_information",
+      "has_data": true,
+      "error": null
+    },
+    "station_information": {
+      "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_information",
+      "has_data": true,
+      "error": null
+    },
+    "station_status": {
+      "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/station_status",
+      "has_data": true,
+      "error": null
+    },
+    "system_pricing_plans": {
+      "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_pricing_plans",
+      "has_data": true,
+      "error": null
+    }
+  }
+}

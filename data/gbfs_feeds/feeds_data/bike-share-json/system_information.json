@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "name": "system_information",
+    "url": "https://tor.publicbikesystem.net/ube/gbfs/v1/en/system_information"
+  },
+  "data": {
+    "last_updated": 1771403907,
+    "ttl": 10,
+    "data": {
+      "system_id": "bike_share_toronto",
+      "timezone": "America/Toronto",
+      "build_version": "2025.3",
+      "build_label": "2025-12-10",
+      "build_hash": "84e71c8",
+      "build_number": "31",
+      "mobile_head_version": "2",
+      "mobile_minimum_supported_version": "1",
+      "_vehicle_count": {
+        "_mechanical_count": 7684,
+        "_ebike_count": 2475
+      },
+      "_station_count": 1008,
+      "language": "en",
+      "name": "bike_share_toronto"
+    }
+  }
+}
