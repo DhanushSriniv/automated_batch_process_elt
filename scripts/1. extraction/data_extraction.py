@@ -1,5 +1,16 @@
 import os
-from el_global import (
+import sys
+
+# Dynamically find the project root by looking for the 'utils' folder
+current_dir = os.path.dirname(os.path.abspath(__file__))
+while not os.path.exists(os.path.join(current_dir, 'utils')):
+    parent = os.path.dirname(current_dir)
+    if parent == current_dir:
+        raise RuntimeError("Could not find project root (utils folder not found)")
+    current_dir = parent
+sys.path.insert(0, current_dir)
+    
+from utils.el_global import (
     get_package_metadata,
     get_resource_metadata,
     fetch_json,

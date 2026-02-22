@@ -9,10 +9,13 @@
             "name": "local",
             "database": "toronto_bike_share_project",
             "username": "postgres",
-            "password": "post",
+            "password": "Admin",
             "group": "Servers",
             "connectionTimeout": 30
         }
     ],
-    "python2.pythonPath": "c:\\Users\\Administrator\\OneDrive\\Desktop\\Portfolio Building\\Data Engineer\\Projects\\2. Automated Batch Processing Data\\2. Github Repo\\automated_batch_process_elt\\venv\\Scripts\\python.exe"
+    "python2.pythonPath": "c:\\Users\\Administrator\\OneDrive\\Desktop\\Portfolio Building\\Data Engineer\\Projects\\2. Automated Batch Processing Data\\2. Github Repo\\automated_batch_process_elt\\venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "./utils"
+    ]
 }

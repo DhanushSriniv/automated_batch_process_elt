@@ -1,0 +1,213 @@
+# Quick Reference Card
+
+## 📌 THE ANSWER IN ONE SENTENCE
+
+**Both `bike-share-json` and `gbfs-specification` are identical metadata files pointing to the same live data, extracted 0.15 seconds apart—likely for testing/validation purposes.**
+
+---
+
+## 🎯 FAQ - Quick Answers
+
+### Q: Which data is live?
+**A:** All of it. Station data updates every 5-30 seconds. Both metadata files are identical.
+
+### Q: Why two files?
+**A:** Appears to be testing/validation. They contain the exact same endpoints and data.
+
+### Q: Can I use just one?
+**A:** Yes! Delete `gbfs-specification`, keep `bike-share-json`. They're identical.
+
+### Q: Where's the real station data?
+**A:** In the endpoints the metadata points to:
+- `station_information` (510 KB, 1,008 stations)
+- `station_status` (337 KB, real-time availability)
+
+### Q: How often do they update?
+**A:** 
+- Metadata: Once per batch job (~hourly or on-demand)
+- Station status: Every 5-30 seconds (real-time)
+
+### Q: What size is the data?
+**A:** 
+- Metadata: 1-2 KB
+- Station data: 300-500 KB per endpoint
+- Total: ~856 KB per extraction
+
+### Q: How many stations?
+**A:** 1,008 stations in Toronto Bike Share system
+
+---
+
+## 🚀 RUN THE ANALYSIS
+
+```bash
+# From project root
+python testing/data_source_analysis.py          # 1 sec
+python testing/live_data_endpoint_analysis.py   # 5-10 sec
+python testing/detailed_data_structure.py       # 3-5 sec
+python testing/extraction_data_testing.py       # 1 sec
+```
+
+---
+
+## 📊 DATA LAYOUT
+
+```
+Live Source (API)
+    ↓ (extracts to)
+Metadata (feeds_summary.json)
+    ├─ Size: 1-2 KB
+    ├─ Purpose: Tell you WHERE data is
+    └─ Contains: 5 endpoint URLs
+        ↓ (fetches from)
+Actual Data (station_information, status, etc.)
+    ├─ Size: 300-500 KB per endpoint
+    ├─ Purpose: Give you the REAL data
+    └─ Contains: 1,008 stations + status
+```
+
+---
+
+## 🔑 KEY FILES STRUCTURE
+
+```
+bike-share-json/
+├─ feeds_summary.json         ← Metadata (1-2 KB)
+├─ station_information.json   ← Live data (510 KB)
+├─ station_status.json        ← Real-time (337 KB)
+├─ system_information.json    ← System meta (0.42 KB)
+├─ system_pricing_plans.json  ← Pricing (8.43 KB)
+└─ system_regions.json        ← Regions (0.06 KB)
+
+gbfs-specification/
+└─ (identical files)
+```
+
+---
+
+## 📈 DATA PIPELINE SEQUENCE
+
+1. **Extract metadata** → feeds_summary.json (URLs)
+2. **Fetch live data** → Using URLs from metadata
+3. **Store in BRONZE** → Raw JSON snapshots
+4. **Transform in SILVER** → Structured tables
+5. **Analyze in GOLD** → Business dashboards
+
+---
+
+## 🧪 TESTING SCRIPTS
+
+| Script | Purpose | Time | Output |
+|--------|---------|------|--------|
+| `data_source_analysis.py` | Compare metadata | 1s | Comparison tables |
+| `live_data_endpoint_analysis.py` | Fetch live data | 5-10s | Data sizes, response times |
+| `detailed_data_structure.py` | Show actual data | 3-5s | Sample stations + schema |
+| `extraction_data_testing.py` | Find differences | 1s | JSON diffs |
+
+---
+
+## 💾 ACTUAL DATA SAMPLE
+
+```json
+{
+  "station_id": "7000",
+  "name": "Fort York  Blvd / Capreol Ct",
+  "lat": 43.639832,
+  "lon": -79.395954,
+  "capacity": 47,
+  "num_bikes_available": 32,
+  "num_docks_available": 14,
+  "status": "IN_SERVICE",
+  "is_renting": 1,
+  "is_returning": 1
+}
+```
+
+---
+
+## ⚡ ONE-LINE COMMANDS
+
+```bash
+# See what's in both files
+python testing/data_source_analysis.py
+
+# Check if endpoints are live
+python testing/live_data_endpoint_analysis.py
+
+# See actual bike station data
+python testing/detailed_data_structure.py
+
+# Compare the two metadata files
+python testing/extraction_data_testing.py
+```
+
+---
+
+## 🎓 KEY INSIGHTS
+
+1. ✓ **Same Source** → Both point to identical live endpoints
+2. ✓ **Same Data** → URLs produce identical results
+3. ✓ **Live Updates** → Station status updates every 5-30s
+4. ✓ **Metadata First** → Must read metadata to find endpoint URLs
+5. ✓ **1,008 Stations** → Toronto Bike Share coverage
+6. ✓ **Real-time** → Can build live dashboards
+7. ✓ **856 KB** → Total data per extraction (~every batch)
+
+---
+
+## 📚 DOCUMENTATION
+
+- **DATA_SOURCE_EXPLANATION.md** → Comprehensive guide
+- **README.md** → How to run scripts  
+- **ANALYSIS_COMPLETE.txt** → Full summary report
+- **testing/data_source_analysis.py** → See it yourself
+- **utils/el_global.py** → Reusable functions
+
+---
+
+## ✅ CHECKLIST
+
+- [x] Understand which data is live (Answer: All of it)
+- [x] Understand why two files (Answer: Testing/validation)
+- [x] Create testing scripts (Answer: 4 scripts created)
+- [x] Fetch live endpoint data (Answer: All working)
+- [x] Show actual data samples (Answer: Displayed)
+- [x] Provide architecture insight (Answer: Documented)
+- [x] Document in testing folder (Answer: Complete)
+
+---
+
+## 🔗 CONNECTED SYSTEMS
+
+```
+el_global.py (module)
+    ├─ load_json_from_file()      → Load local JSON
+    ├─ fetch_json()               → Fetch from URL
+    └─ compare_json()             → Compare two objects
+    
+Used by ALL scripts:
+    ├─ data_source_analysis.py
+    ├─ live_data_endpoint_analysis.py
+    ├─ detailed_data_structure.py
+    └─ extraction_data_testing.py
+```
+
+---
+
+## 🎬 NEXT STEPS
+
+1. Run `python testing/data_source_analysis.py` to see comparison
+2. Run `python testing/live_data_endpoint_analysis.py` to see live data
+3. Run `python testing/detailed_data_structure.py` to see actual stations
+4. Read `testing/DATA_SOURCE_EXPLANATION.md` for deep dive
+5. Decide: Keep one metadata file or both?
+6. Plan: How to process the 1,008 stations?
+7. Build: Transformation layer (SILVER) for your needs
+
+---
+
+**Status:** ✓ COMPLETE  
+**Created:** 2026-02-20  
+**Location:** `testing/` folder  
+**Scripts:** 4 comprehensive analysis scripts  
+**Documentation:** 3 guide documents + this card
