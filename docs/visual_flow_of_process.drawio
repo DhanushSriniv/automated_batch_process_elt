@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.1 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.1">
+  <diagram name="Page-1" id="lcpG1ifS7K8SgtWjUFXW">
+    <mxGraphModel dx="1097" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4vRTainM0IV6NOclAQ22-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Visual Flow&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="440" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font&gt;GBFS API (Live)&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(11, 11, 11);&quot;&gt;station_information.json&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(11, 11, 11);&quot;&gt;station_status.json&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(11, 11, 11);&quot;&gt;system_information.json&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(11, 11, 11);&quot;&gt;system_pricing_plans.json&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(11, 11, 11);&quot;&gt;system_regions.json&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="210" x="19" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-8" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;labelBackgroundColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Extraction&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Python Requests&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="344" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-9" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;labelBackgroundColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Load&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 17px; font-weight: 400;&quot;&gt;Bronze (JSONB)&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="597" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;labelBackgroundColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Transform&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Aggregated BI&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="850" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-12" edge="1" parent="1" source="4vRTainM0IV6NOclAQ22-3" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4vRTainM0IV6NOclAQ22-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="497" y="483" as="sourcePoint" />
+            <mxPoint x="547" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-13" edge="1" parent="1" source="4vRTainM0IV6NOclAQ22-8" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4vRTainM0IV6NOclAQ22-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="521" y="415" as="sourcePoint" />
+            <mxPoint x="636" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4vRTainM0IV6NOclAQ22-14" edge="1" parent="1" source="4vRTainM0IV6NOclAQ22-9" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4vRTainM0IV6NOclAQ22-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="804" y="424" as="sourcePoint" />
+            <mxPoint x="907" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
