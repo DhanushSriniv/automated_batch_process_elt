@@ -154,15 +154,6 @@ def load_feed_to_bronze(feed_name, source_name, batch_id, api_url, payload):
 <img width="1211" height="812" alt="Data Architecture Matrix" src="https://github.com/user-attachments/assets/3559e0bf-33ef-42c2-9a0b-1cb519a2deda" />
 
 **Bronze Table Schema**
+<img width="639" height="432" alt="Bronze table schema" src="https://github.com/user-attachments/assets/459d505e-e0e7-4e35-8493-02ca8df09c40" />
 
-  
-**File Structure**
-project/
-├── data_extraction.py           # Main EL orchestrator
-├── utils/
-│   ├── el_global.py            # CKAN/GBFS helpers
-│   ├── db.py                   # PostgreSQL connection
-│   └── bronze_loader.py        # Bronze insert
-├── data/feeds_data/            # Raw JSON files (optional)
-└── docs/01_el_bronze.md       # This document
 
