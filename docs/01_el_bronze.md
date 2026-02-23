@@ -156,15 +156,4 @@ def load_feed_to_bronze(feed_name, source_name, batch_id, api_url, payload):
 **Bronze Table Schema**
 <img width="639" height="432" alt="Bronze table schema" src="https://github.com/user-attachments/assets/459d505e-e0e7-4e35-8493-02ca8df09c40" />
 
-  
-**File Structure**
-
-project/
-├── data_extraction.py           # Main EL orchestrator
-├── utils/
-│   ├── el_global.py            # CKAN/GBFS helpers
-│   ├── db.py                   # PostgreSQL connection
-│   └── bronze_loader.py        # Bronze insert
-├── data/feeds_data/            # Raw JSON files (optional)
-└── docs/01_el_bronze.md       # This document
 
