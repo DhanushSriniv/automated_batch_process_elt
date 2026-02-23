@@ -1,0 +1,2 @@
+system_id,timezone,build_version,build_label,build_hash,build_number,mobile_head_version,mobile_minimum_supported_version,_station_count,language,name,_vehicle_count._mechanical_count,_vehicle_count._ebike_count
+bike_share_toronto,America/Toronto,2025.3,2026-02-19,f797d48,3,2,1,1008,en,bike_share_toronto,7684,2475
