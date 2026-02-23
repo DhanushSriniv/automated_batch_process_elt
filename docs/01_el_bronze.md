@@ -145,18 +145,17 @@ def load_feed_to_bronze(feed_name, source_name, batch_id, api_url, payload):
 | api_url       | https://tor.publicbikesystem.net/ube/gbfs/en/station_information.json |
 | raw_payload   | {version: "3.0", ttl: 10, data: {stations: [...]}}                    |
 
-##Data Architecture and Bronze Table Schema
+## Data Architecture and Bronze Table Schema
+
 **Data Flow**
 ![alt text](image.png)
 
 **Data Architecture Matrix**
-![alt text](<Data Architecture Matrix.drawio.png>)
-![
-  ![alt text](<Datawarehouse Architecture.drawio.png>)
-](<Data Architecture Matrix.drawio-1.png>)
-![
+<img width="1211" height="812" alt="Data Architecture Matrix" src="https://github.com/user-attachments/assets/3559e0bf-33ef-42c2-9a0b-1cb519a2deda" />
+
+**Bronze Table Schema**
+
   
-](<Datawarehouse Architecture.drawio-1.png>)
 **File Structure**
 project/
 ├── data_extraction.py           # Main EL orchestrator
