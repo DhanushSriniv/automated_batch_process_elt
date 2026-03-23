@@ -2,7 +2,6 @@
 -- This table is designed to store raw GBFS feed data as ingested, without any transformation.
 -- It serves as a landing zone for all GBFS feed data, allowing us to maintain a complete historical 
 -- record of the raw data as it was received from the source.
-DROP TABLE IF EXISTS bronze.gbfs_feed_raw;
 
 CREATE TABLE IF NOT EXISTS bronze.gbfs_feed_raw (
     id              bigserial PRIMARY KEY,

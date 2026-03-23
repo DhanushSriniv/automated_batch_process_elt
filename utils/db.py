@@ -2,6 +2,7 @@
 import os
 import psycopg2
 from contextlib import contextmanager
+import psycopg2
 
 # Read connection info from environment variables
 # e.g. POSTGRES_HOST, POSTGRES_DB, POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_PORT
